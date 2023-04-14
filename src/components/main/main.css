@@ -13,3 +13,16 @@ main {
     flex-direction: column;
     justify-content: center;
 }
+
+.btn-get-started {
+    padding: 20px;
+    margin-top: 30px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font: inherit;
+    font-weight: bold;
+    background-color: rgb(224, 39, 39);
+    color: white;
+}
