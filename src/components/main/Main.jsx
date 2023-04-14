@@ -8,8 +8,7 @@ const Main = () => {
                 <Logo/>
 
                 <div className='site-info'>
-                    <h4 id='site-name-info'>A aglutinação de "type text"</h4>
-                    <p id='site-subject'>Um site de testes de velocidade de digitação</p>
+                    <p id='site-subject'>Um site de testes de <u>velocidade de digitação</u></p>
                     <button className='btn-get-started'>Começar</button>
                 </div>
             </div>

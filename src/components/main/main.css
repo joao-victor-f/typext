@@ -1,0 +1,15 @@
+main {
+    width: 50%;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8em;
+}
+
+.main-intro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
