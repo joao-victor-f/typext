@@ -17,7 +17,7 @@ main {
 .btn-get-started {
     padding: 20px;
     margin-top: 30px;
-    width: 100%;
+    width: 40%;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -25,4 +25,10 @@ main {
     font-weight: bold;
     background-color: rgb(224, 39, 39);
     color: white;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.btn-get-started:hover {
+    box-shadow: inset 400px 0 0 0 #333;
+    font-weight: lighter;
 }
